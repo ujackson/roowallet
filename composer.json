@@ -16,5 +16,17 @@
         "psr-4": {
             "Patosmack\\RooWallet\\" : "src/"
         }
+    },
+    
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Patosmack\\RooWallet\\Providers\\RooWalletServiceProvider"
+        ],
+        "aliases": {
+            "RooWallet": "Patosmack\\RooWallet\\Facades\\RooWallet"
+        }
     }
+}
+    
 }
